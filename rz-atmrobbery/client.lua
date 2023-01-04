@@ -30,7 +30,7 @@ AddEventHandler("reze:robatm", function()
 									dispatch()
 									TriggerServerEvent("rz-atmrobbery:removeitem") 
 								end
-							end, "numeric", 30, 0)
+							end, "greek", 30, 0)
 						end, function() 
 							QBCore.Functions.Notify(Lang:t("notify.cancel"), 'error', 7500)
 						end)
