@@ -4,7 +4,6 @@
 
 ## Features
 - Basic Config
-- Basic Config
 - Low Resmon
 - Script using full qb-target
 - Easy editable language file
