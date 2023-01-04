@@ -4,7 +4,10 @@
 
 ## Features
 - Basic Config
+- Basic Config
 - Low Resmon
+- Script using full qb-target
+- Easy editable language file
 
 ## Dependencies
 - [qb-core](https://github.com/qbcore-framework/qb-core)
