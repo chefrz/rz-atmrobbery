@@ -51,6 +51,12 @@ exports('AtmRobbery', AtmRobbery)
 ```
 - Add the following code to your `ps-dispatch/server/sv_dispatchcodes`
 ```
+['atmrobbery'] = "Atm Robbery",
+
+```
+
+- Add the following code to your `ps-dispatch/locales/locales`
+```
 ["atmrobbery"] =  {displayCode = '10-90', description = "Atm Robbery In Progress", radius = 0, recipientList = {'police'}, blipSprite = 52, blipColour = 1, blipScale = 1.5, blipLength = 2, sound = "Lose_1st", sound2 = "GTAO_FM_Events_Soundset", offset = "false", blipflash = "false"},
 
 ```
