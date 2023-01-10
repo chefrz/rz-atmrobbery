@@ -21,12 +21,12 @@
 ### Dispatch
 - Add the following code to your `ps-dispatch/client/cl_events`
 ```
-local function AtmrRobbery(camId)
+local function AtmRobbery(camId)
     local currentPos = GetEntityCoords(PlayerPedId())
     local locationInfo = getStreetandZone(currentPos)
     local gender = GetPedGender()
     TriggerServerEvent("dispatch:server:notify", {
-        dispatchcodename = "atmrobbery",
+        dispatchcodename = "atmrobbery", -- has to match the codes in sv_dispatchcodes.lua so that it generates the right blip
         dispatchCode = "10-90",
         firstStreet = locationInfo,
         gender = gender,
@@ -46,7 +46,7 @@ local function AtmrRobbery(camId)
     })
 end
 
-exports('AtmrRobbery', AtmrRobbery)
+exports('AtmRobbery', AtmRobbery)
 
 ```
 - Add the following code to your `ps-dispatch/server/sv_dispatchcodes`
