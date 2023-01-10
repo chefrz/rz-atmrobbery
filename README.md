@@ -57,8 +57,7 @@ exports('AtmRobbery', AtmRobbery)
 
 - Add the following code to your `ps-dispatch/locales/locales`
 ```
-['atmrobbery'] = "Atm Robbery",
-
+['atmrobbery'] = "Atm Robbery"
 ```
 
 
