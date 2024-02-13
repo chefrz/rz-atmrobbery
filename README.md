@@ -7,7 +7,7 @@
 ## Showcase
 - https://youtu.be/4kOLxsbiU1k
 ## Discord
-- https://discord.gg/zertxMj7Yh
+- https://discord.gg/3JHgCdUFtG
 
 ## Updtate
 - Dispatch installation edited and new ps-dispatch adapted.
